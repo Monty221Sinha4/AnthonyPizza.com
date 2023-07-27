@@ -12,13 +12,19 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <img src="~/Images/Piza 2.jpg" />
+    <img src="~/Images/Piza 2.jpg" width="100" height="100"/>
     <div class="col-md-6">
         <h6>Welcome to Anthony's Pizza'</h6>
         <h7>Where We keep the Pizzas Around!</h7>
     </div>
+    <nav style="color:blue">
+        @Html.ActionLink("Home","Home","Home")
+        @Html.ActionLink("About Us","AboutUs","Home")
+        @Html.ActionLink("menu","menu","Home")
+        @Html.ActionLink("Contact","Contact","Home")
+    </nav>
     <div>
-
+        @RenderBody()
     </div>
 </body>
 </html>
