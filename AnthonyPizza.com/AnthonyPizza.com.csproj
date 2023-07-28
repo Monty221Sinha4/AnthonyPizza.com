@@ -105,6 +105,8 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\IT12.jpg" />
+    <Content Include="Images\Meatball 1.jpg" />
     <Content Include="Images\Piza 2.jpg" />
     <Content Include="Images\Pizza 1.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
